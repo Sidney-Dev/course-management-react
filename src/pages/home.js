@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { fetchCourses } from '../services/courseService';
 import axiosInstance from '../axios';
 
-const Courses = () => {
+const Home = () => {
     const [courses, setCourses] = useState([]);
     const [loading, setLoading] = useState(true);
 
@@ -55,4 +55,4 @@ const Courses = () => {
     );
 };
 
-export default Courses;
+export default Home;
